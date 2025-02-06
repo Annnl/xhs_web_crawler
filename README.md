@@ -36,6 +36,8 @@ cd xhs-easy-crawler
    - 启用开发者模式
    - 点击"加载已解压的扩展程序"
    - 选择项目中的 `chrome_extension` 文件夹
+   - ![image](https://github.com/user-attachments/assets/30d2a0f4-90c0-4aac-be1f-3d4a963ed14a)
+
 
 ### 使用流程
 
@@ -51,12 +53,16 @@ cd xhs-easy-crawler
    - 点击扩展图标，打开控制面板
    - 点击"开始采集"按钮
    - 等待自动采集完成
+   - ![image](https://github.com/user-attachments/assets/ab890a31-f5d3-414a-8533-e988689fdde1)
+
 
 3. **数据导出**
 
    - 在 Chrome 开发者工具的 Network 面板中
    - 右键点击并选择"Save all as HAR with content"
    - 保存生成的 .har 文件
+   - ![image](https://github.com/user-attachments/assets/a8662677-3d9c-4e13-a001-9e417e8cbb4f)
+
 
 4. **数据处理**
 
