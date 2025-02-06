@@ -36,6 +36,8 @@ cd xhs-easy-crawler
    - 启用开发者模式
    - 点击"加载已解压的扩展程序"
    - 选择项目中的 `chrome_extension` 文件夹
+   - ![image](https://github.com/user-attachments/assets/30d2a0f4-90c0-4aac-be1f-3d4a963ed14a)
+
 
 ### 使用流程
 
