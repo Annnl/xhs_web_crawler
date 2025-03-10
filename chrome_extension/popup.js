@@ -1,7 +1,6 @@
 document.getElementById('start').addEventListener('click', async () => {
 	const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
 	const interval = document.getElementById('clickInterval').value;
-	interval = Math.floor(Math.random() * 10000) + interval;
 
 	// 使用 chrome.tabs.sendMessage 替代 window.postMessage
 	chrome.tabs.sendMessage(tab.id, {
